@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #373737!important;
 }
 
 .container {
@@ -701,7 +701,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto;
 }
 
 h2 {
@@ -775,11 +775,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C14F1C;
     color: #FFFFFF!important;
 }
 
@@ -1039,4 +1039,16 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.dark-gray{
+    color: #373737 !important;
+}
+
+.bold-ul{
+    font-weight: 700;
+}
+
+.bgc-atomic-tangerine-2 {
+    background-color: #A85C39;
 }
