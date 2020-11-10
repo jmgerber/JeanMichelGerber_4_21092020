@@ -705,8 +705,8 @@ p {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+    font-size: 1.6em;
+    line-height: 1.3em;
 }
 
 h3 {
@@ -1039,4 +1039,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+h2.competence{
+    font-weight: 600;
 }
