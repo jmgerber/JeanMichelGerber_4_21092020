@@ -1,23 +1,22 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script defer src="./js/jquery-2.1.0.min.js"></script>
+	<script defer src="./js/bootstrap.min.js"></script>
+	<script defer src="./js/blocs.min.js"></script>
+	<script defer src="./js/jqBootstrapValidation.min.js"></script>
+	<script defer src="./js/formHandler.min.js"></script>
     <title>page2</title>
 
     
@@ -62,10 +61,10 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
+				<h1 class="text-center hero-bloc-text dark-gray">
 					Parlons web design !
 				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
+				<p class="text-center mg-lg dark-gray tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
@@ -84,25 +83,26 @@
 					<div class="form-group">
 						<label>
 							Nom
+							<input id="name" class="form-control" required />
 						</label>
-						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
+							<input id="email" class="form-control" type="email" required />
 						</label>
-						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
+							<input class="form-control" type="text" required id="input_504" />
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -129,28 +129,28 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center dark-gray">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md dark-gray"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md dark-gray"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md dark-gray"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md dark-gray"></span></a>
 						</div>
 					</div>
 				</div>
